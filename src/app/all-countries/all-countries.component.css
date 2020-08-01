@@ -1,0 +1,13 @@
+table {
+  margin: 0.6rem auto;
+  border: 1px solid rebeccapurple;
+}
+
+td,
+th {
+  border: 1px solid rebeccapurple;
+}
+
+th {
+  padding: 2px;
+}

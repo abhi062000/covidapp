@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Country Name</th>
+      <th>Total Confirmed</th>
+      <th>Total Recovered</th>
+      <th>Total Deaths</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of allCountriesData">
+      <td>{{data.Country}}</td>
+      <td>{{data.TotalConfirmed}}</td>
+      <td>{{data.TotalRecovered}}</td>
+      <td>{{data.TotalDeaths}}</td>
+    </tr>
+  </tbody>
+</table>
